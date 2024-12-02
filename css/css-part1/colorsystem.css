@@ -3,6 +3,7 @@ h1{
     text-decoration:green  wavy underline;
     letter-spacing: 5px;
     font-size:30px;
+    font-family: avant garde, didot, sans-serif;
     
 }
 
@@ -18,11 +19,13 @@ p{
     font-weight: bold;
     line-height: 1.5;
     font-size: 15px;
+   
 }
 
 h3{
     font-weight: normal;
     text-decoration: overline;
+    font-family: impact;
 }
 a{
     text-decoration: none;
