@@ -27,7 +27,7 @@ p a{
     background-color: yellow;
 }
 
-nav ul li a{
+nav a{
     color: hotpink;
 }
 
@@ -37,4 +37,23 @@ p + h3{
 .upvote + button{
     background-color: cornflowerblue;
     color: darkblue;
+}
+
+div > input{
+    background-color:darksalmon;
+}
+
+input[type="text"]{
+    color: red;
+}
+
+input[type="password"]{
+    color: green;
+}
+
+input[type]{
+    background-color: ghostwhite;
+}
+#myId p {
+    color:blueviolet;
 }
