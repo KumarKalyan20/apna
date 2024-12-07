@@ -80,3 +80,15 @@ button:hover{
  div:nth-of-type(3) {
     background-color: crimson;
  }
+
+ h1::first-letter {
+    color:black;
+ }
+
+ p::first-line{
+    color: purple;
+ }
+
+ p::selection{
+    background-color: rgb(119, 178, 0);
+ }
