@@ -8,14 +8,7 @@ h1,h3{
     color: #b92b27;
     
 }
-#login{
-    background-color: white;
-}
 
-#signup {
-  background-color: #b92b27;
-  color: white;
-}
 .upvote{
     background-color: green;
     color: aliceblue;
@@ -91,4 +84,10 @@ button:hover{
 
  p::selection{
     background-color: rgb(119, 178, 0);
+ }
+ h3{
+    background-color: yellow;
+ }
+ h3{
+    background-color: blue;
  }
