@@ -12,10 +12,14 @@ div{
     /* //Border sides// */
      /* border-left-color: blue;
      border-left-style: dashed; */
-     border-top: 5px dashed blue;
+     border: 5px solid black;
+     border-radius:10px;
 }
 h1{
-    border-width: 2px;
+    /* border-width: 2px;
     border-style: dashed;
-    border-color:green;
+    border-color:green; */
+    border: 2px dashed green;
+
+
 }
