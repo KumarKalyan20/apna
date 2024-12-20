@@ -3,6 +3,7 @@ div {
     width: 200px;
     background-color:rgba(255, 0, 0, 0.749);
 }
-#opacity{
+#Opacity{
     background-color:blueviolet;
+    opacity:1;
 }
