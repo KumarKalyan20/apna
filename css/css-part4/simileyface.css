@@ -13,17 +13,22 @@
     background-color:red;
     border-radius:0 0 50px 50px;
     position:absolute;
-    left: 10px;
     top: 250px;
     left: 100px;
 
 }
 .left-eye, 
 .right-eye{
-    height: 100px;
-    width: 100px;
+    height: 50px;
+    width: 50px;
     background-color: black;
-    border-radius: 50%;
+    border-radius: 100%;
     display: inline-block;
     position: absolute;
+    left:100px;
+    top: 100px;
+    
+}
+.right-eye{
+    left: 250px;
 }
