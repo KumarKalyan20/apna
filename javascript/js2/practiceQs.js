@@ -123,3 +123,13 @@ switch (day){
 
 }
 
+//alert & prompt
+
+// alert("this is a simple alert!");
+console.log("this is a simple log");
+console.log("this is an error msg");
+
+ let firstname = prompt("enter First name:");
+ let lastname = prompt("enter Second name:");
+ let msg = "Hello " + firstname +"" + lastname + "!";
+ alert(msg);
