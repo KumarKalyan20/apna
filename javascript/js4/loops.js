@@ -1,16 +1,17 @@
 const favmovie ="salaar";
 const guess =prompt("guess my favorite movie");
-  while((guess != favmovie) && (guess != "quit")) {
-    console.log("wrong");
+  while (guess != favmovie) {
+    if(guess == "quit") {
+      console.log("you quit");
+      break;
+    }
     guess = prompt("wrong guess.please try again");
   }
 
    if(guess == favmovie) {
     console.log("congrats!!");
    }
-   else {
-    console.log("you quit");
-   }
+   
 
    //Break Keyword
    // let i=1;
