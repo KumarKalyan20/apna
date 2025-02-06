@@ -106,5 +106,21 @@ function sum(a,b) {
     for(let i=1; i<=n; i++) {
         sum +=i;
     }
-    return getSum(4);
+    return sum;
+ }
+
+ getSum(4);
+
+ //Create a Function that returns the concentration of all strings in an array//
+
+ let str = ["hi", "hello", "bye", "!"];
+
+ function concat(str) {
+    let result = "";
+
+    for(let i=0; i<str.length; i++) {
+        result += str[i];
+    }
+
+    return result;
  }
