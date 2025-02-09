@@ -22,3 +22,31 @@ if(age >= 18) {
     console.log(str);
 }
 
+function outerFunc() {
+    let x = 5;
+    let y = 6;
+    function innerFunc() {  //function scope
+        let a =10;
+        console.log(x);
+        console.log(y);
+    }
+    console.log(a);
+    innerFunc();
+}
+
+//Practice Qs  What will be the output?
+
+let greet = "hello"; //global scope
+
+function changeGreet() {
+    let greet = "namaste"; //function scope
+    console.log(greet);
+
+    function innerGreet() {
+        console.log(greet); //lexical scope
+    }
+
+    innerGreet();
+}
+console.log(greet);
+changeGreet();
