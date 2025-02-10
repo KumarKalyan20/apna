@@ -50,3 +50,20 @@ function changeGreet() {
 }
 console.log(greet);
 changeGreet();
+
+//Function Expression
+
+let name = "shradha";
+let x = 5;
+
+const add= function(a,b) {
+    return a+b;
+    
+}
+ let hello = function() {
+    console.log("hello");
+ }
+
+ hello = function() {
+    console.log("good morning");
+ }
