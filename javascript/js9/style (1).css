@@ -4,7 +4,9 @@ body {
 
 .green {
   color: green;
-  text-decoration: wavy;
+}
+.underline {
+  text-decoration: underline purple wavy;
 }
 
 #mainImg {
@@ -16,6 +18,10 @@ body {
   background-color: lightgray;
   width: 200px;
   padding: 1rem;
+}
+
+.yellowBg {
+  background-color: yellow;
 }
 
 .boxLink {
