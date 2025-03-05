@@ -39,12 +39,3 @@ body {
     background-color: green;
 }
 
-@media (max-width: 768px) {
-    .btn {
-        height: 140px;
-        width: 140px;
-    }
-    .btn-container {
-        margin: 0 auto;
-    }
-}
