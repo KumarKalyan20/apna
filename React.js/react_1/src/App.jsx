@@ -1,17 +1,9 @@
 import "./App.css"
-
-function Title() {
-  return <h1>I'm the Title!</h1>;
-}
+import Title  from "./Title.jsx";
+import ProductTab from "./Product.jsx";
 
 function App() {
-  return (
-  <div>
-    <h1>This is my app component! </h1>
-    <p>inside app componet we have : </p>
-  <Title />
-  </div>
-  );
+  return  <ProductTab />;
 }
 
-export default App
+export default App;
