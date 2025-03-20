@@ -7,14 +7,6 @@ export default function Form() {
         password: "",
     });
 
-    // let handleNameChange = (event) => {
-    //    setFullName( event.target.value ); 
-    // };
-
-    // let handleUsername = (event) => {
-    //     setUsername( event.target.value ); 
-    //  };
-
     let handleInputChange = (event) => {    
        setFormData( (currData) => {
           return {...currData, [event.target.name] :  event.target.value };
