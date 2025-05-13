@@ -71,4 +71,14 @@ mytripler = myfunc(3)
 print(mydoubler(11))
 print(mytripler(11))
 
+class Person:
+  def __init__(self, name, age):
+    self.name = name
+    self.age = age
+
+p1 = Person("John", 36)
+
+print(p1.name)
+print(p1.age)
+
 
